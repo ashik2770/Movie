@@ -5,13 +5,13 @@ import { getAuth, signInWithPopup, GoogleAuthProvider, signOut } from 'firebase/
 
 // Firebase Config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  databaseURL: "YOUR_DATABASE_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyB_1okOZWg5uv_wQzaJH2T4vlNmigreU70",
+  authDomain: "movie-streaming-webapp.firebaseapp.com",
+  projectId: "movie-streaming-webapp",
+  storageBucket: "movie-streaming-webapp.firebasestorage.app",
+  messagingSenderId: "436018546152",
+  appId: "1:436018546152:web:458cc6f4311992e217505d",
+  measurementId: "G-8PC833K8EJ"
 };
 
 const app = initializeApp(firebaseConfig);
